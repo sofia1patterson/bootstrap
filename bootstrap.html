@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="images/plane.png" width="30" height="30" class="d-inline-block align-top" alt="plane">
+                    Travel
+            </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About Me</a>
+            <a class="nav-item nav-link" href="#">Contact Info</a>
+            <a class="nav-item nav-link" href="#">Recent Post</a>
+          </div>
+        </div>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+    <div class="container-fluid">
+        <img src="images/travel.jpeg" alt="travel">
+    </div>
+    <div class="jumbotron">
+        <h1 class="display-4">Go Travel</h1>
+        <p class="lead">There is always something new to explore.</p>
+        <hr class="my-4">
+        <p>Click here to book your next vacation!</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Book</a>
+        </p>
+    </div>
+    <div class="spacing container">
+        <div class="row justify-content-center">
+            <div class="border col">
+                <h5 class="text">Backpacking Through Thailand</h5>
+                <img id="thailand" src="images/thailand.png" alt="thailand">
+                <p class="text">Learn how I island hopped in Thailand on a budget.</p>
+                <button type="button" class="align btn btn-outline-dark">Learn More >></button>
+            </div>
+            <div class="border col-5">
+                <h3 class="text">Havana Ooh Na Na</h3>
+                <img id="cuba" src="images/cuba.png" alt="cuba">
+                <p class="text">Follow me through my journey between streets trapped in the 1950's. Also, RUM!</p>
+                <button type="button" class="align1 btn btn-outline-dark">Learn More >></button>
+            </div>
+            <div class="border col">
+                <h5 class="text">Beauty of New Zealand</h5>
+                <img id="nz" src="images/piha.png" alt="new-zealand">
+                <p class="text">Find out more about this breathtaking country with so much natural beauty.</p>
+                <button type="button" class="align btn btn-outline-dark">Learn More >></button>
+            </div>
+        </div>
+    </div>
+    <div class="back-black">
+        <a href="" class="content"> >> Europe Travel</a>
+        <a href="" class="content"> >> Asia Travel</a>
+        <a href="" class="content"> >> Australia Travel</a>
+        <a href="" class="content"> >> North America Travel</a>
+        <a href="" class="content"> >> South America Travel</a>
+    </div>
+    <div class="subscribe">
+        <h3>Sign up for my email List!</h3>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-outline-dark">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

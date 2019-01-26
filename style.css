@@ -1,0 +1,54 @@
+.spacing {
+    margin: 20px;
+}
+
+.border {
+    /* outline: 1px solid black; */
+    padding: 15px;
+}
+#thailand {
+    outline: 1px solid black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#backpack {
+    text-align: center;
+}
+.text {
+    text-align: center;
+}
+#cuba {
+    outline: 1px solid black;
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+#nz {
+    outline: 1px solid black;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.align {
+    margin-left : 85px;
+}
+.align1 {
+    margin-left: 150px;
+}
+.back-black {
+    background-color: rgb(83, 80, 80);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.subscribe {
+    width: 500px;
+    outline: 1px solid black;
+    margin-left: 400px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    padding: 30px;
+}
